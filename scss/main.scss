@@ -1,0 +1,42 @@
+@import "config/variable";
+@import "config/mixin";
+//
+// @import "helper/normalize";
+// @import "helper/formalize";
+// @import "helper/global";
+//
+
+@import "global/header";
+@import "global/navigation";
+//
+@import "pages/index";
+
+/* General Classes */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Oswald";
+	font-weight: 500;
+}
+
+.tags .tag {
+	background-color: #cd2638;
+	font-size: 0.72em;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	transform: skew(-10deg);
+	padding: 0.2em 1em;
+	margin: 5px;
+	div {
+		transform: skew(10deg);
+	}
+}
+
+a:hover {
+	text-decoration: none;
+}
